@@ -1,0 +1,2 @@
+uint16 encoder
+uint16 IR_value

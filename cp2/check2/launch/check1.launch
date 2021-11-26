@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="ros_arduino" pkg="rosserial_arduino" type="serial_node.py" output="screen"/>
+  <node name="ros_from_arduino" pkg="check2" type="speed_control.py" output="screen"/>
+
+
+
+</launch>
